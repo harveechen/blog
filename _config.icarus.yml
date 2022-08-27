@@ -62,9 +62,9 @@ article:
     highlight:
         theme: atom-one-light
         clipboard: true
-        fold: unfolded
+        fold: folded
     readtime: false
-    update_time: false
+    update_time: true
     licenses:
         Creative Commons:
             icon: fab fa-creative-commons
@@ -78,37 +78,37 @@ article:
 search:
     type: insight
     index_pages: true
-# comment:
-#     type: disqus
-#     shortname: ''
-donates:
+comment:
+    type: disqus
+    shortname: 'https-harveechen-top'
+# donates:
     # -
     #     type: afdian
     #     url: ''
-    -
-        type: alipay
-        qrcode: https://harvee.oss-cn-shanghai.aliyuncs.com/alipay.jpg
+    # -
+    #     type: alipay
+    #     qrcode: https://harvee.oss-cn-shanghai.aliyuncs.com/alipay.jpg
     # -
     #     type: buymeacoffee
     #     url: ''
     # -
     #     type: patreon
     #     url: ''
-    -
-        type: paypal
-        business: harveechen@gmail.com
-        currency_code: USD
-    -
-        type: wechat
-        qrcode: https://harvee.oss-cn-shanghai.aliyuncs.com/wechat.jpg
+    # -
+    #     type: paypal
+    #     business: harveechen@gmail.com
+    #     currency_code: USD
+    # -
+    #     type: wechat
+    #     qrcode: https://harvee.oss-cn-shanghai.aliyuncs.com/wechat.jpg
 # share:
 #     type: sharethis
 #     install_url: ''
 sidebar:
     left:
-        sticky: false
+        sticky: true
     right:
-        sticky: false
+        sticky: true
 widgets:
     -
         position: left
@@ -116,8 +116,8 @@ widgets:
         author: Harvee Chen
         author_title: Your title
         location: Nanjing
-        avatar: https://harvee.oss-cn-shanghai.aliyuncs.com/wxz.jpg
-        avatar_rounded: false
+        avatar: https://harvee.oss-cn-shanghai.aliyuncs.com/blog/wxz.jpg
+        avatar_rounded: true
         gravatar: 
         follow_link: https://github.com/harveechen
         social_links:
@@ -133,29 +133,29 @@ widgets:
             RSS:
                 icon: fas fa-rss
                 url: /
-    -
-        position: left
-        type: toc
-        index: true
-        collapsed: true
-        depth: 3
-    -
-        position: left
-        type: links
-        links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+    # -
+    #     position: right
+    #     type: toc
+    #     index: true
+    #     collapsed: true
+    #     depth: 2
+    # -
+    #     position: left
+    #     type: links
+    #     links:
+    #         Hexo: https://hexo.io
+    #         Bulma: https://bulma.io
     -
         position: left
         type: categories
     -
-        position: left
+        position: right
         type: recent_posts
     -
-        position: left
+        position: right
         type: archives
     -
-        position: left
+        position: right
         type: tags
         order_by: name
         amount: 

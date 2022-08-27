@@ -1,0 +1,27 @@
+sidebar:
+    left:
+        sticky: true
+    right:
+        sticky: true
+widgets: 
+    -
+        position: left
+        type: toc
+        index: true
+        collapsed: true
+        depth: 3
+    -
+        position: left
+        type: categories
+    -
+        position: right
+        type: recent_posts
+    -
+        position: right
+        type: archives
+    -
+        position: right
+        type: tags
+        order_by: name
+        amount: 
+        show_count: true
