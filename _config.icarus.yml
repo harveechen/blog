@@ -1,6 +1,7 @@
 version: 5.1.0
 variant: default
-logo: /img/logo.svg
+# logo: /img/logo.svg
+logo: /logo.jpg
 head:
     favicon: /img/favicon.svg
     manifest:
@@ -130,8 +131,8 @@ widgets:
     -
         position: left
         type: profile
-        author: Harvee Chen
-        author_title: Your title
+        author: 南方悟
+        # author_title: Your title
         location: Nanjing
         avatar: https://harvee.oss-cn-shanghai.aliyuncs.com/blog/wxz.jpg
         avatar_rounded: true
