@@ -78,9 +78,25 @@ article:
 search:
     type: insight
     index_pages: true
+# comment:
+#     type: disqus
+#     shortname: 'https-harveechen-top'
+# comment:
+#     type: utterances
+#     repo: harveechen/blog
+#     issue_term: pathname        # Required if issue_number is not set
+#     issue_number: 100           # Required if issue_term is not set. Every post can be mapped to a separate, manually-created GitHub issue.
+#     label: utterances     # Optional
+#     theme: github-light         # Optional
+#     crossorigin: anonymous
 comment:
-    type: disqus
-    shortname: 'https-harveechen-top'
+    type: disqusjs
+    shortname: https-harveechen-top
+    api_key: GxNt5nMvKcbWbBnhbbgFynl9tn7ai3C9yzvzdIQUdQ1T97K0fXR1akLrjgiQPcoK
+    api: https://disqus.skk.moe/disqus/     # 可选填
+    admin: harveechen                        # 可选填
+    admin_label: Admin                      # 可选填
+    nesting: 4               
 # donates:
     # -
     #     type: afdian
