@@ -92,6 +92,7 @@ search:
 comment:
     type: disqusjs
     shortname: https-harveechen-top
+    siteName: http://harveechen.top/
     api_key: GxNt5nMvKcbWbBnhbbgFynl9tn7ai3C9yzvzdIQUdQ1T97K0fXR1akLrjgiQPcoK
     api: https://disqus.skk.moe/disqus/     # 可选填
     admin: harveechen                        # 可选填
