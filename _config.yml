@@ -59,6 +59,6 @@ pagination_dir: page
 include: []
 exclude: []
 ignore: null
-theme: hexo-theme-icarus
+theme: icarus
 deploy:
   type: ''
