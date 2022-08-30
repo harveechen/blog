@@ -5,13 +5,13 @@ sidebar:
         sticky: true
 widgets: 
     -
-        position: left
+        position: right
         type: toc
         index: true
         collapsed: true
         depth: 3
     -
-        position: left
+        position: right
         type: categories
     -
         position: right
