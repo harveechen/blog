@@ -12,10 +12,10 @@ widgets:
         depth: 3
     -
         position: right
-        type: categories
+        type: recent_posts
     -
         position: right
-        type: recent_posts
+        type: categories
     -
         position: right
         type: archives
